@@ -112,6 +112,6 @@ restart_setup() {
 
 run_time() {
     end_time=$(date +%s)
-    run_time=$(( $start_time - $end_time ))
+    run_time=$(( $end_time - $start_time ))
     echo "$(date "+%Y-%m-%d %H:%M:%S") total time taken to execute script: $run_time" | tee -a $LOGS_FILE
 }
