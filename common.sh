@@ -10,7 +10,7 @@ N="\e[0m"
 SCRIPT_DIR=$PWD
 Mongodb_Host=mongodb.daws88s.online
 start_time=$(date +%s)
-Mongodb_Host=mysql.daws88s.online
+Mysql_Host=mysql.daws88s.online
 
 mkdir $LOGS_FOLDER
 
