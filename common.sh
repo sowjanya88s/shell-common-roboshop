@@ -8,9 +8,9 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 SCRIPT_DIR=$PWD
-Mongodb_Host=mongodb.daws88s.online
+Mongodb_Host=mongodb.sowjanya.fun
 start_time=$(date +%s)
-Mysql_Host=mysql.daws88s.online
+Mysql_Host=mysql.sowjanya.fun
 
 mkdir $LOGS_FOLDER
 
