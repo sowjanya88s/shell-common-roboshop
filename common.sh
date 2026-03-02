@@ -78,9 +78,9 @@ app_setup() {
     VALIDATE $? "Created systemctl service"
 
     systemctl daemon-reload
-    systemctl enable catalogue  &>>$LOGS_FILE
-    systemctl start catalogue
-    VALIDATE $? "Starting and enabling catalogue"
+    systemctl enable $module  &>>$LOGS_FILE
+    systemctl start $module
+    VALIDATE $? "Starting and enabling $module"
 }
 
 java_setup() {
