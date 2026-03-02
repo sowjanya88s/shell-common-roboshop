@@ -1,5 +1,5 @@
 #!/bin/bash
-
+module=shipping
 source ./common.sh
 
 check_root
