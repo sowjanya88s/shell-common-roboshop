@@ -1,5 +1,5 @@
 #!/bin/bash
-module=shipping
+module=payment
 source ./common.sh
 
 check_root
